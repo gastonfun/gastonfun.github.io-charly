@@ -10,7 +10,7 @@ body {
     background-image: url('images/foto1.jpeg');
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 0;
