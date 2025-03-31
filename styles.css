@@ -1,3 +1,155 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/* Menu Styles */
+.menu-hamburguesa {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.oculto {
+    display: none;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Make menu responsive */
+@media screen and (max-width: 768px) {
+    .menu-hamburguesa {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: left;
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .oculto {
+        display: block;
+    }
+
+    /* Adjust content padding for mobile */
+    main {
+        padding: 10px;
+    }
+}
+
+/* Main sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#detalles p, #cuenta-regresiva p {
+    font-size: 1.1rem;
+}
+
+#contador {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#fotos {
+    text-align: center;
+}
+
+.foto-charly {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-image: url('images/footer.jpeg');
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Text */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    #contador {
+        font-size: 1.2rem;
+    }
+}
+
+/*
 body {
     background-image: url('images/foto1.jpeg');
     background-blend-mode: soft-light;
