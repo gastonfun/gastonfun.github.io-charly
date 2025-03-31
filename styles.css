@@ -12,9 +12,15 @@ body {
 }
 
 header {
-    background-color: #f4f4f4;
-    padding: 10px;
+    background-image: url('images/header.jpeg');
+    background-position: top;
+    background-size: cover;
+    height: 427px;
+    width: 100%;
+    background-repeat: no-repeat;
     text-align: center;
+    padding: 5px;
+    position: sticky;
 }
 
 h1 {
