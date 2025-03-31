@@ -115,6 +115,13 @@ section {
 .foto-charly {
     max-width: 100%;
     height: auto;
+    width: 25%;
+    margin: 5px;
+    transition: transform 0.4s;
+}
+
+.foto-charly:hover {
+    transform: scale(4.44);
 }
 
 iframe {
