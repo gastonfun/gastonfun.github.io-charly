@@ -129,6 +129,9 @@ iframe {
 /* Footer */
 footer {
     background-image: url('images/footer.jpeg');
+    background-position: bottom 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
     color: #fff;
     text-align: center;
     padding: 10px;
