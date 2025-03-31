@@ -8,9 +8,7 @@
 /* Body and general layout */
 body {
     background-image: url('images/foto1.jpeg');
-    img {
-        opacity: 0.5;
-      }
+    image-rendering: crisp-edges;
     background-blend-mode: hard-light;
     background-repeat: no-repeat;
     background-size: 100%;
