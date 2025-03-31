@@ -149,11 +149,15 @@ iframe {
 /* Footer */
 footer {
     background-image: url('images/footer.jpeg');
-    background-position: bottom 10px;
-    background-size: 100%;
+    background-position: center; /* Centrado de la imagen */
+    background-size: cover; /* Usar cover para cubrir toda el área del footer */
     background-repeat: no-repeat;
     color: #fff;
-    padding: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px; /* Aseguramos que el footer no quede pegado al contenido */
+    position: relative;
+    z-index: 0; /* El footer no debe quedar sobre otros elementos */
 }
 
 /* Responsive Text */
