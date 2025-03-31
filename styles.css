@@ -8,8 +8,7 @@
 /* Body and general layout */
 body {
     background-image: url('images/foto1.jpeg');
-    image-rendering: crisp-edges;
-    background-blend-mode: hard-light;
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: Arial, sans-serif;
