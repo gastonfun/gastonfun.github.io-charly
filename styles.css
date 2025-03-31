@@ -7,6 +7,7 @@
 
 /* Body and general layout */
 body {
+    opacity: 0.5;
     background-image: url('images/foto1.jpeg');
     background-blend-mode: hard-light;
     background-repeat: no-repeat;
