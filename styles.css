@@ -10,7 +10,7 @@ body {
     background-image: url('images/foto1.jpeg');
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 0;
@@ -28,7 +28,6 @@ header {
     padding: 10px 0;
     position: relative; /* Cambiado para evitar problemas de solapamiento */
     z-index: 1; /* Aseguramos que el header no quede detrás de otros elementos */
-
 }
 
 h1 {
