@@ -19,7 +19,7 @@ body {
 
 header {
     background-image: url('images/header.jpeg');
-    background-position: top;
+    background-position: center;
     background-size: cover;
     height: 50vh; /* Usar un porcentaje del alto de la pantalla en lugar de un valor fijo */
     width: 100%;
