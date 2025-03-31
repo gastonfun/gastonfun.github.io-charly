@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de cumpleañito 44</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="menu-hamburguesa" onclick="toggleMenu()">
+            ☰
+        </div>
+        <h1></h1>
+        <audio autoplay loop>
+            <source src="music/musica.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+    </header>
+
+    <nav id="menu" class="oculto">
+        <ul>
+            <li><a href="#detalles">Detalles</a></li>
+            <li><a href="#cuenta-regresiva">Cuenta Regresiva</a></li>
+            <li><a href="#mapa">Cómo Llegar</a></li>
+            <li><a href="#galeria">Galería</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <section id="detalles">
+
+            <h2>Información</h2>
+            <p><strong>Fecha:</strong> 2025-04-01</p>
+            <p><strong>Hora:</strong> 22:00:00</p>
+            <p><strong>Lugar:</strong> GURRUCHAGA 970, Bulogne</p>
+        </section>
+
+        <section id="cuenta-regresiva">
+            <h2>Faltan para el cumple:</h2>
+            <div id="contador">
+                <span id="dias"></span> días 
+                <span id="horas"></span> horas 
+                <span id="minutos"></span> minutos 
+                <span id="segundos"></span> segundos 
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2></h2>
+            <div id="fotos">
+                <img src="images/foto3.jpg" alt="Foto de cumpleañero" class="foto-charly">
+            </div>
+        </section>
+
+        <section id="mapa">
+            <h2>¿Cómo llegar?</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.762960905252!2d-58.582557723474544!3d-34.48353705116255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbac8604e8677%3A0x9f1c751541aac64a!2sGurruchaga%20970%2C%20B1609%20Boulogne%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1743437092336!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p><strong>¡Nos vemos Pronto!</strong></p>
+        </section>
+    </main>
+
+    <footer>
+        <p></p>
+
+
+    </footer>
+</body>
+</html>

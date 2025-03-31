@@ -1,0 +1,90 @@
+body {
+    background-image: url('images/foto1.jpeg');
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-image: url('images/header.jpeg');
+    background-position: top;
+    background-size: cover;
+    height: 427px;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+}
+
+main {
+    height: 1600px;
+    width: 100%;
+}
+footer {
+    background-image: url('images/footer.jpeg');
+    background-position: bottom 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 998px;
+    width: 100%;
+}
+
+.menu-hamburguesa {
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav {
+    background: #e1e1e1;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav.oculto {
+    display: none;
+}
+
+#contador {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.foto-charly {
+    width: 25%;
+    margin: 5px;
+    transition: transform 0.4s;
+}
+
+.foto-charly:hover {
+    transform: scale(4.44);
+}
