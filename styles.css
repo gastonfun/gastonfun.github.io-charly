@@ -13,18 +13,22 @@ body {
     background-size: 100%;
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    padding: 0;
+    margin: 0;
 }
 
 header {
     background-image: url('images/header.jpeg');
     background-position: top;
-    background-size: auto;
-    height: 427px;
+    background-size: cover;
+    height: 50vh; /* Usar un porcentaje del alto de la pantalla en lugar de un valor fijo */
     width: 100%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 5px;
-    position: sticky;
+    padding: 10px 0;
+    position: relative; /* Cambiado para evitar problemas de solapamiento */
+    z-index: 1; /* Aseguramos que el header no quede detrás de otros elementos */
+
 }
 
 h1 {
@@ -150,7 +154,6 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     color: #fff;
-    text-align: center;
     padding: 10px;
 }
 
