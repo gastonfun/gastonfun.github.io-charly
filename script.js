@@ -1,8 +1,3 @@
-// Función para mostrar/ocultar el menú hamburguesa
-function toggleMenu() {
-    const menu = document.getElementById('menu');
-    menu.classList.toggle('oculto');
-}
 
 // Esperamos a que el DOM se cargue completamente
 document.addEventListener('DOMContentLoaded', function() {
