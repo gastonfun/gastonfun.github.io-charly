@@ -119,12 +119,14 @@ audio + .play-button:active {
 /* Mapa */
 #mapa {
     padding: 40px 20px;
+    display: block; /* Asegura que el contenedor ocupe todo el espacio necesario */
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 #mapa iframe {
-    width: 100%;
-    max-width: 600px;
-    height: 300px;
+    width: 100%; /* El mapa tomará el 100% del ancho disponible */
+    height: 400px; /* Altura estándar para un mapa */
     border: none;
 }
 
@@ -134,7 +136,7 @@ footer {
     background-size: cover;
     background-position: center;
     height: 855px;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     color: #fff;
