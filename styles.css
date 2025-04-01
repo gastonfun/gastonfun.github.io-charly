@@ -16,6 +16,7 @@ body {
 }
 
 header {
+    width: 100%;
     background-image: url('images/header.jpeg');
     background-position: center;
     background-size: 100%;
