@@ -22,7 +22,7 @@ header {
     background-size: 100%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 10px 0;
+    padding: 50px 0;
     position: sticky; /* Cambiado para evitar problemas de solapamiento */
     z-index: 1; /* Aseguramos que el header no quede detrás de otros elementos */
 }
