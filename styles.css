@@ -22,7 +22,7 @@ h1, h2 {
 /* Header */
 header {
     background-image: url('images/header.jpeg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 427px;
@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-    font-size: 1rem; /* Fuente más pequeña para mejor apariencia */
+    font-size: 2rem; /* Fuente más pequeña para mejor apariencia */
     color: white;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
@@ -78,13 +78,13 @@ audio + .play-button:active {
 }
 
 #detalles h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #2c3e50;
     margin-bottom: 20px;
 }
 
 #detalles p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #7f8c8d;
 }
 
@@ -134,7 +134,7 @@ audio + .play-button:active {
 /* Footer */
 footer {
     background-image: url('images/footer.jpeg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 855px;
@@ -150,7 +150,7 @@ footer {
 @media (max-width: 768px) {
     /* Header */
     header {
-        height: auto; /* Permite que el header se ajuste automáticamente en pantallas más pequeñas */
+        height: 50vw; /* Permite que el header se ajuste automáticamente en pantallas más pequeñas */
         padding-top: 10px; /* Reduce el padding superior para evitar cortar el contenido */
     }
 
@@ -160,7 +160,7 @@ footer {
 
     /* Footer */
     footer {
-        height: auto; /* Ajusta el alto para que la imagen no se corte */
+        height: 50vw; /* Ajusta el alto para que la imagen no se corte */
         padding: 20px; /* Reduce el padding para que se vea mejor en pantallas pequeñas */
     }
 
