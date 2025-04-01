@@ -1,3 +1,16 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const titulo = document.getElementById('titulo');
+    const texto = titulo.innerText;  // Obtener el texto del h1
+    titulo.innerHTML = '';  // Limpiar el contenido actual
+
+    // Crear un span para cada letra del texto
+    texto.split('').forEach((letra, index) => {
+        const span = document.createElement('span');
+        span.innerText = letra;  // Asignar la letra al span
+        span.style.animationDelay = `${index * 0.1}s`;  // Aplicar un retraso incremental
+        titulo.appendChild(span);  // Añadir el span al h1
+    });
+});
 
 // Esperamos a que el DOM se cargue completamente
 document.addEventListener('DOMContentLoaded', function() {
