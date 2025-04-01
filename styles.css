@@ -21,7 +21,7 @@ header {
     background-repeat: no-repeat;
     text-align: center;
     padding: 10px 0;
-    position: relative; /* Cambiado para evitar problemas de solapamiento */
+    position: fixed; /* Cambiado para evitar problemas de solapamiento */
     z-index: 1; /* Aseguramos que el header no quede detrás de otros elementos */
 }
 
