@@ -151,7 +151,7 @@ footer {
     background-repeat: no-repeat;
     color: #fff;
     text-align: center;
-    padding: 15px;
+    padding: 120px;
     margin-top: 30px; /* Aseguramos que el footer no quede pegado al contenido */
     position: relative;
     z-index: 1; /* El footer no debe quedar sobre otros elementos */
