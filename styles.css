@@ -21,7 +21,7 @@ h1, h2 {
 
 /* Header */
 header {
-    background-image: url('images/header.jpg');
+    background-image: url('images/header.jpeg');
     background-size: cover;
     background-position: center;
     height: 427px;
@@ -140,7 +140,7 @@ nav ul li a:hover {
 
 /* Footer */
 footer {
-    background-image: url('images/footer.jpg');
+    background-image: url('images/footer.jpeg');
     background-size: cover;
     background-position: center;
     height: 855px;
