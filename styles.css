@@ -154,7 +154,7 @@ footer {
     padding: 120px;
     margin-top: 30px; /* Aseguramos que el footer no quede pegado al contenido */
     position: relative;
-    z-index: 1; /* El footer no debe quedar sobre otros elementos */
+    z-index: 0; /* El footer no debe quedar sobre otros elementos */
 }
 
 /* Responsive Text */
