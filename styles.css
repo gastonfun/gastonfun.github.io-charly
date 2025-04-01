@@ -29,21 +29,46 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    padding-top: 30px; /* Asegurar que el contenido no quede tapado */
+    padding-top: 30px;
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 2rem; /* Fuente más pequeña para mejor apariencia */
     color: white;
     font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para hacerlo más visible */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
 
-/*audio {
+/* Botón Play/Pause */
+audio {
+    display: none;
+}
+
+audio + .play-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 20px;
     position: absolute;
     bottom: 20px;
     right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 100;
 }
 
+audio + .play-button:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+}
+
+audio + .play-button:active {
+    background-color: #e74c3c;
+    transform: scale(1.05);
+}
 
 /* Estilo de la sección de detalles */
 #detalles {
@@ -60,13 +85,6 @@ header h1 {
 #detalles p {
     font-size: 1.2rem;
     color: #7f8c8d;
-}
-
-/* Efecto en el texto de la sección de detalles */
-#detalles p strong {
-    color: #e67e22;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
 /* Cuenta regresiva */
@@ -91,6 +109,11 @@ header h1 {
     max-width: 500px;
     margin: 0 auto;
     display: block;
+    transition: transform 0.3s ease;
+}
+
+#galeria img:hover {
+    transform: scale(1.1);
 }
 
 /* Mapa */
@@ -121,29 +144,4 @@ footer {
 footer h2 {
     font-size: 2rem;
     font-weight: bold;
-}
-
-/* Reproductor de música y botón PLAY */
-audio {
-    display: none;
-}
-
-audio + .play-button {
-    background-color: #e74c3c;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    z-index: 100; /* Aseguramos que el botón de Play esté por encima de todo */
-}
-
-audio + .play-button:hover {
-    background-color: #c0392b;
-}
-
-audio + .play-button:active {
-    background-color: #e74c3c;
 }
